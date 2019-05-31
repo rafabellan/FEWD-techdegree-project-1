@@ -2,54 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jane Smith's Profile</title>
+  <title>Rafael Abellan's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
-
     <div class="main-nav">
         <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
+          <li class="name">Rafael Abellan</li>
+          <li><a href="index.html" class="current-page">Home</a></li>
+          <li><a href="diary.html">Diary</a></li>
+          <li><a href="experience.html">Experience</a></li>
         </ul>
     </div>
 
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/rafa.jpg" alt="Rafael Abellan's profile photo" class="profile-image">
+      <h1 class="tag name">G'day! I’m Rafa.</h1>
+      <p class="tag location">I live on a beautiful island called Jeju, South Korea.</p>
     </header>
 
     <main class="flex">
       <div class="card">
         <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
+        <p>I'm a Brazilian who loves to travel. I've studied philosophy what made me hungry for learning new things. I've lived in Spain, Portugal, Argentina, East Timor, Australia and now I'm living in South Korea.</p>
+        <p>I work helping small businesses to implement online marketing strategies. I like to launch digital products, create and optimise Sales Funnels. Also, I develop Email Marketing Campaigns, Paid Traffic Campaigns (Google, Facebook, Instagram, etc.).</p>
+      </div>
 
       <div class="card">
         <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <p>My primary goal of learning programming is to have fun. Like in philosophy, a developer needs to structure his idea very logically. Once I learn how to code, I want to teach kids how to become a programmer. To do this, I need to learn:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+          <li>Python</li>
+          <li>Game Development</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
+      </div>
 
     </main>
+
+    <section>
+      <div class="entry">
+        <h2>Web Development Diary</h2>
+        <article>
+          <h3>Day 01</h3>
+          <img src="images/diary01.jpg" alt="Introduction to HTML and CSS course thumbnail">
+          <p>Today I decided to signup for the Front End Web Development Treehouse Techdegree. I watched a course called Introduction to HTML and CSS by Treasure Porth. The course is an excellent start to give us a foundation about the structure of the web pages.</p>
+          <p>I've learned that we use HTML - HyperText Markup Language - to structure the content of our pages. Also, I learned that we use CSS - Cascading Style Sheets - to give instructions to the browser about how to show our content, making our pages beautiful and attractive to the visitors.</p>
+          <p>After every topic of the course, we have a questionnaire about what we've studied and a coding test that makes us seating the hands on the keyboard and indeed code a few lines.</p>
+          <p>I'm very excited about what is coming next!</p>
+        </article>
+      </div>
+
+      <div class="entry">
+        <article>
+          <h3>Day 02</h3>
+          <img src="images/diary02.jpg" alt="HTML Basics course thumbnail">
+          <p>Today I finished the second course in Unit 1, HTML Basics. I watched the videos, did all the tests and coding challenges. The teacher is Guil Hernandez.</p>
+          <p>I've learned a lot about semantic HTML, that add meaning for the sections in our pages. In semantic HTML, we use self-explained tags like:</p>
+          <pre>
+            &lt;header&gt;Container for introductory content and/or navigation menu&lt;&sol;header&gt;
+            &lt;section&gt;Creates a new section in your page&lt;&sol;section&gt;
+            &lt;main&gt;Represents the fundamental content of your page&lt;&sol;main&gt;
+            &lt;footer&gt;Container for aditional information such as Copyright, Contact, Aditional Navigation, Authorship, etc.&lt;&sol;footer&gt;
+          </pre>
+          <p>As you can see, Semantic HTML is self-explained and makes the code understandable for humans, search engines and browsers.</p>
+        </article>
+      </div>
+      <div class="entry">
+        <article>
+          <h3>Day 03</h3>
+          <img src="images/diary03.jpg" alt="Photo of my laptop with the Project 01 page opened">
+          <p>G'day! Today was a fascinating day. I learned about GitHub, an exciting community where people learn, share and coding together.</p>
+          <p>Also, I started my first Front End Web Development Techdegree project. In this project, I will practice all the HTML and CSS I've learned so far. I hope I can do it well.</p>
+          <p>In this project, I have to create a Personal Profile Page. There is an example page that we can download and we have to change some information, add new content, etc.</p>
+          <p>I will keep updating this diary, and therefore, I can have a record of my coding studies. If you want to check my updates, visit my <a href="diary.html"><strong>Diary.</strong></a></p>
+        </article>
+      </div>
+    </section>
+
     <footer>
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/RafaelAbellan" target="_blank" class="social twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/rafael-abellan/" target="_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/rafabellan" target="_blank" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">&copy; 2019, Rafael Abellan</p>
     </footer>
   </body>
   </html>
